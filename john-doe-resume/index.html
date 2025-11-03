@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Doe</title>
+
+    <style>
+        h2 {
+            color: rgb(255, 255, 255);
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="title">John Doe</h1>
-            <p>Web Developer</p>
+            <h1 style="color: White; background-color: red">John Doe</h1>
+            <p style="background-color: salmon; color:white;">Web Developer</p>
         </div>
     </header>
 <hr>
     <main class="main_container">
         <div class="container">
-            <section class="about">
+            <section id="about" class="box">
                 <h2 class="title">About Me</h2>
                     <div class="about-section_image">
                     <img class="about-me_image"
@@ -26,7 +35,7 @@
         </div>
     <hr>
         <div class="container">
-            <section class="experience">
+            <section id="experience" class="box">
                 <h2 class="title2">Experience</h2>
                 <h3 class="title3">Web Developer</h3>
                     <div class="web-developer">
@@ -38,9 +47,9 @@
         </div>
     <hr>
         <div class="container">
-                <section class="education">
-                <h2>Education</h2>
-                <h3>Bachelor of Science in Chemistry</h3>
+                <section id="education" class="box">
+                <h2 class="title2">Education</h2>
+                <h3 class="title3">Bachelor of Science in Chemistry</h3>
                     <div class="Bachelor">
                         <p>ABC University - Graduation in 2019</p>
                     </div>
@@ -48,14 +57,15 @@
         </div>
     <hr>
     </main>
-        <footer class="container">
+        <footer id="container" class="box">
             <section class="contact-me">
-                <h2>Contact Me</h2>
+                <h2 class="">Contact Me</h2>
                     <div class="contact">
                         <p>Email: john.doe@example.com</p>
                         <p>Phone: +1234567890</p>
-                        <span>LinkedIn: johndoe</span>
-                        <a href="https://www.linkedin.com/in/johndoe"><span>(</span>https://www.linkedin.com/in/johndoe<span>)</span></a>
+                        <p>LinkedIn: johndoe
+                            (<a href="https://www.linkedin.com/in/johndoe">https://www.linkedin.com/in/johndoe</a>)
+                        </p>
                     </div>
             </section>
         </footer>

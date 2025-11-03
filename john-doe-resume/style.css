@@ -1,0 +1,32 @@
+
+.title, .title2, .title3{
+    font-family:"Cyborg Punk", sans-serif;
+}
+title {
+    font-family:"Cyborg Punk", sans-serif;
+}
+body {
+    font-family: "Segoe UI" , Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(31, 34, 37)
+}
+
+
+p, a {
+    color: white;
+}
+
+#AboutMe{
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.box{
+    background-color: #335850;
+    color: whitesmoke;
+}
+
+.section {
+    background-color: #1d77d1;
+    color: wheat;
+}
+
+
