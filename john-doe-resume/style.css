@@ -1,4 +1,10 @@
 
+.p {
+    font-family:"FC-Iconic",sans-serif;
+
+}
+
+
 .title, .title2, .title3{
     font-family:"Cyborg Punk", sans-serif;
 }
@@ -13,6 +19,7 @@ body {
 
 p, a {
     color: white;
+    font-family:"FC Iconic",sans-serif;
 }
 
 #AboutMe{
@@ -27,6 +34,10 @@ p, a {
 .section {
     background-color: #1d77d1;
     color: wheat;
+}
+
+.header {
+    background-color: rgb(155, 7, 7)
 }
 
 
